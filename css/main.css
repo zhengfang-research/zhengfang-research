@@ -53,6 +53,9 @@ p span{
   background-position: center right;
   background-repeat: no-repeat;
 }
+video{
+  background-color: #ccc;
+}
 .video{
   max-width: 400px;
   margin: auto;
