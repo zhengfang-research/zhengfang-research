@@ -7,13 +7,20 @@ body{
   url("//at.alicdn.com/wf/webfont/WkA4BLPrXimN/hxkts2h5McCg0tBm7gmXV.woff") format("woff");
   font-display: swap;
 }
+a{
+  color: #111;
+  text-decoration:underline
+}
+a:hover{
+  color: #666;
+}
 span.match{
   background-color:#f8dda9;
   border:1px solid #edd19b;
   margin:-1px;
 }
 nav{
-  padding: 0 2.5%;
+  padding: 15px 2.5%;
 }
 .uk-navbar-nav li a{
   font-size: 16px;
@@ -30,9 +37,13 @@ h3{
 }
 p{
   font-size: 18px;
+  text-align: justify;
 }
 p span{
   font-style:  italic;
+}
+.large-author p{
+  text-align: center;
 }
 .totop{
   position: fixed;
@@ -52,6 +63,20 @@ p span{
   background-image: url(../media/bg.png);
   background-position: center right;
   background-repeat: no-repeat;
+}
+.catalog h1,.catalog h3{
+  text-align: center;
+}
+.catalog ul{
+  border-bottom: 1px solid #666;
+  padding-bottom: 60px;
+}
+.catalog .uk-nav-header{
+  margin: 0;
+  padding: 0;
+}
+.catalog li{
+  margin-left: 20px;
 }
 video{
   background-color: #ccc;
@@ -113,4 +138,9 @@ video{
   }
   .img-model6{display: none;}
   .img-model7{display: inherit;margin-top: 40px;}
+  .catalog h1{margin-top: 60px;}
+  .catalog ul{margin-bottom: 40px;}
+  nav{
+    padding: 10px 2.5%;
+  }
 }
