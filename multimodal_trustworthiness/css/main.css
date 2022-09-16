@@ -15,6 +15,9 @@ body{
   url("//at.alicdn.com/wf/webfont/WkA4BLPrXimN/hxkts2h5McCg0tBm7gmXV.woff") format("woff");
   font-display: swap;
 }
+.uk-container{
+  max-width: 1020px;
+}
 a{
   color: #111;
   text-decoration:underline
@@ -134,7 +137,7 @@ video{
 }
 .video2{
   background-color: #000;
-  height: 818px;
+  height: 695px;
   overflow: hidden;
 }
 .video2 video{
