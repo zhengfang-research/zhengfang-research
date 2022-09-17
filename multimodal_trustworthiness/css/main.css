@@ -133,7 +133,13 @@ video{
   display: none;
 }
 .tableau{
+  width: 100%;
+  height: 400px;
   position: relative;
+  overflow: hidden;
+}
+.tableauPlaceholder{
+  height: 400px;
 }
 .tableau iframe{
   width: 100%;
@@ -143,6 +149,10 @@ video{
   background-image: url(../media/200.gif);
   background-repeat: no-repeat;
   background-position: center;
+}
+.loading li{
+  width: 100%;
+  clear: both;
 }
 .x{
   position: absolute;
