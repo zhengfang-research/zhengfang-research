@@ -210,6 +210,12 @@ video{
   margin-right: 5px;
   float: left;
 }
+.tab-h5{
+  display: none;
+}
+.tab-pc{
+  display: inherit;
+}
 @media (max-width: 768px) {
   .menu{display: none;}
   .large-title{font-size: 32px;}
@@ -240,5 +246,11 @@ video{
   }
   .video2 video{
     margin-top: 0;
+  }
+  .tab-h5{
+    display: inherit;
+  }
+  .tab-pc{
+    display: none;
   }
 }
