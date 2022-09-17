@@ -9,6 +9,7 @@ body{
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  text-transform:none
 }
 @font-face {
   font-family: "song";src: url("//at.alicdn.com/wf/webfont/WkA4BLPrXimN/rePKuXp9tzK6oBkCegWRs.woff2") format("woff2"),
@@ -41,6 +42,8 @@ h1,h2{
   font-size: 32px;
   font-family: times;
   font-weight: bold;
+  width: 100%;
+  clear: both;
 }
 h3{
   font-size: 24px;
@@ -124,16 +127,37 @@ video{
 .img-model7{
   display: none;
 }
-.tableauPlaceholder{
+.tableau{
   position: relative;
+}
+.tableau iframe{
+  width: 100%;
+  height: 400px;
 }
 .x{
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   z-index: 1;
   width: 100%;
-  height: 30px;
+  height: 28px;
   background-color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+.uk-subnav-pill>.uk-active>a{
+  background-color: #bbb;
+  text-decoration: none;
+  text-transform:none;
+}
+.uk-subnav li a,.uk-subnav-pill>*>:first-child{
+  text-decoration: none;
+  text-transform:none;
+}
+.tips{
+  width: 100%;
+  font-size: 14px;
+  height: auto;
+  clear: both;
 }
 .video2{
   background-color: #000;
@@ -142,6 +166,27 @@ video{
 }
 .video2 video{
   margin-top: 50px;
+}
+.color{
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+.color ul{
+  list-style: none;
+}
+.color ul li{
+  float: left;
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+.color .color-model{
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  float: left;
 }
 @media (max-width: 768px) {
   .menu{display: none;}
