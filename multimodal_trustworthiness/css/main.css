@@ -96,13 +96,14 @@ video{
   background-color: #ccc;
 }
 .video{
-  max-width: 400px;
+  width: 350px;
   margin: auto;
 }
 .video iframe{
   width: 350px;
   height: 600px;
   border-radius: 8px;
+  margin: auto;
 }
 .large-title{
   font-size: 42px;
@@ -241,10 +242,14 @@ video{
     padding: 10px 2.5%;
   }
   .video2{
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 8px;
     height: auto;
   }
-  .video2 video{
-    margin-top: 0;
+  .video2 iframe{
+    width: 350px;
+    margin: 0 auto;
   }
   .tab-h5{
     display: inherit;
