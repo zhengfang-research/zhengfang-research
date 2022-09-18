@@ -210,10 +210,10 @@ video{
   margin-right: 5px;
   float: left;
 }
-.tab-h5{
+.tab-h5,.apic-h5{
   display: none;
 }
-.tab-pc{
+.tab-pc,.apic-pc{
   display: inherit;
 }
 @media (max-width: 768px) {
@@ -251,10 +251,10 @@ video{
     width: 350px;
     margin: 0 auto;
   }
-  .tab-h5{
+  .tab-h5,.apic-h5{
     display: inherit;
   }
-  .tab-pc{
+  .tab-pc,.apic-pc{
     display: none;
   }
 }
